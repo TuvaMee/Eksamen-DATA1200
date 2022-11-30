@@ -78,30 +78,30 @@ når størrelsen på siden endres. Styler generelt klassen. */
 
  /* Styler bakgrunnsbilde */
 .BOOKING { 
-    background-image: url(BilderEksamen/Index-Booking.jpeg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: bottom;
-    width: auto;
-    height: 90vh;
-    position: relative;  
+        background-image: url(BilderEksamen/Index-Booking.jpeg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: bottom;
+        width: auto;
+        height: 90vh;
+        position: relative;  
+        
+     }
     
- }
-
-
- /* Styler hele teksten og lager tekstboks */
- .BOOKING #text { 
-    position:absolute;
-    width: 350px;
-    height: 400px;
-    bottom: 100px;
-    right: 10px;
-    padding-left: 13px;
-    padding-right: 13px;
-    background: rgba(19,35,47,1);
-    font-size: 2.5vh;
-    text-align: center;
- } 
+    
+     /* Styler hele teksten og lager tekstboks */
+     .BOOKING #text { 
+        position:absolute;
+        width: 350px;
+        height: 450px;
+        bottom: 150px;
+        right: 10px;
+        padding-left: 13px;
+        padding-right: 13px;
+        background: rgba(19,35,47,1);
+        font-size: 2.5vh;
+        text-align: center;
+     }
 
 
 
