@@ -23,13 +23,15 @@
 /*Styler tittelen "MENY", setter ny font for kun tittelen. 
 Setter større avstand mellom bokstavene og plasserer tittelen der vi vil ha den(left, right og top)*/
 .HEADER #overskrift {
-    font-size:60px; 
     position:absolute;
     bottom: 0%;
     top: 72%;
     left: 4.5%;
     letter-spacing: 8px;
     font-family: 'Playfair Display', serif;
+
+    font-size:
+    calc(47px + 3.390625vw);;
 }
 
 
