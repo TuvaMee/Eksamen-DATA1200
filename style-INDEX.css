@@ -23,7 +23,9 @@
 }
 
 
-/* Styler overskriften og setter posisjonen */
+/* Styler overskriften og setter posisjonen *
+font-siza calc() er brukt for å kalkuøtere størrelsen relativ til skjermvidden
+*/
 .HEADER .overskrift {
     text-align: center;
     position:absolute;
@@ -36,7 +38,7 @@
     max-height: 100%;  
 
     font-size:
-    calc(27px + 3.390625vw);;
+    calc(25px + 3.390625vw);;
     
 
 }
