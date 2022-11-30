@@ -59,7 +59,7 @@ https://resizing.flixster.com/ImBcI7zF5e8MeadmvnY2XZQoTg0=/300x300/v2/https://fl
     /*Lager en bakgrunn med ombre-effekt, styler her med fargene vi vil ha i den. Velger at fargene skal sikfte farge nedover og
 ikke bortover på siden*/
 background:
--webkit-linear-gradient(
+linear-gradient(
   rgb(9, 16, 21),
   rgb(10, 17, 22),
   rgb(24, 44, 57),
@@ -148,5 +148,6 @@ shape-outside:circle();
 
 #linker :hover{
   color: coral;
+  text-decoration: underline;
 }
 

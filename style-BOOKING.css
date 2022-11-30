@@ -43,10 +43,12 @@
         position: absolute;
         bottom: 100px;
         right: 7px;
-        width: 350px;        
-        height: 400px;
+        max-width: 350px;
+        width: 100%;        
+        max-height: 400px;
+        height: auto;
         padding: 0 13px 0 13px;
-        margin: 30px 0 110px 0;
+        margin: 30px 0 80px 0;
         background: rgba(47,74,97,0.7);
         font-size: 20px;
         text-align: center;
@@ -104,14 +106,10 @@ input{
 .SELSKAP {
     text-align: center;
     justify-content: center;
-    padding-top: 50px ;
-    padding-bottom: 60px;
+    padding: 50px 10px 60px 10px;  
     flex-wrap: wrap;
     display: flex;
-    padding-left: 10px;
-    padding-right: 10px;  
 }
-
 
 .SELSKAP > div {
     width: 700px;
@@ -131,6 +129,7 @@ input{
 
 /*------------- BESKRIVELSE AV ROMMENE ---------------*/
 
+    
     .CHAMBRE h1{
         font-weight: 100;
         letter-spacing: 0.02em;
@@ -141,7 +140,7 @@ input{
 
     }
 
-
+    /*   */
     .ROM {
         display: flex;
         flex-wrap: wrap;
@@ -150,7 +149,6 @@ input{
         text-align: center;
         width: 100%;
         padding-bottom: 80px;
-      
     }
     
     .ROM > div {
@@ -165,7 +163,6 @@ input{
     } 
     
     .ROM h2{
-        font-weight: 100;
         letter-spacing: 0.1em;
         font-size: 25px;
         padding-bottom: 30px;
