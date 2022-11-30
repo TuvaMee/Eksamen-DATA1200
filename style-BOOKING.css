@@ -1,5 +1,7 @@
 
 /*----------- HEADER OG BAKGRUNN ------------*/
+
+/* Styler overskriften og bilde  */
 .HEADER {
     position: relative; 
     height: 100vh;
@@ -8,6 +10,7 @@
     justify-content: center;
 }
 
+/* Styler posisjonene til bilde og gjør at bilde kommer bak teksten  */
 .HEADER::before{       
     content: "";
     background-image: url(BilderEksamen/Booking-Forside.jpg);
@@ -20,6 +23,7 @@
     opacity: 1;
 }
 
+/* Styler overskriften og setter posisjonen */
 .HEADER #overskrift {
     text-align: center;
     position:absolute;
@@ -33,62 +37,65 @@
     max-height: 100%;
 }
 
+/* Tekstboks i heading
+    Lager en tekstboks med svak bakgrunn, og bestemmer tekst*/
+    .BOOKINGTEKST{
+        position: absolute;
+        bottom: 100px;
+        right: 7px;
+        width: 350px;        
+        height: 400px;
+        padding: 0 13px 0 13px;
+        margin: 30px 0 110px 0;
+        background: rgba(47,74,97,0.7);
+        font-size: 20px;
+        text-align: center;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+
 
 
 
 
 /*------------- BORDBOOKING - SKJEMA ---------------*/
 
-/* Setter bakgrunnsfarge og padding*/
+/* Setter bakgrunnsfarge og padding fra BORDBOOKING-boksen*/
 .BOOKING{
     background-color: #1C2D3C;
     padding:80px;
 }
-.BORDBOOKING{
+
+/* Bestemmer plassering og størrelse på tekst og skjema*/
+.BORDBOOKING {
     font-size: 20px;
     width: 50%;
     margin: auto;
     margin-top: 10px;
-    box-sizing: border-box;
     border-radius: 4px;
     justify-content: center;
     display:flex;
 }
 
+/*Bestemmer skriftstørrelse og -plassering*/
 .BORDBOOKING p {
     text-align: center;
-    font-size: 25px;    
+    font-size: 25px;   
 }
 
-
+/* Endrer størrelse, kanter og bord på innfyllingsboksene i skjemaet.
+    Bruker defult størrelse på boksene.*/
 input{
-    box-sizing: border-box;
     border-radius: 4px;
     border-style: none;
 }
 
-
+/*Legger inn mellomrom under hver input-boks*/
 #label{
     padding-bottom: 20px;    
 }
 
-
-/* Tekstboks i heading
-    Lager en tekstboks med svak bakgrunn, og bestemmer tekst*/
-#tekst{
-    position: absolute;
-    bottom: 100px;
-    right: 7px;
-    width: 350px;
-    height: 400px;
-    padding: 0 13px 0 13px;
-    margin: 30px 0 70px 0;
-    background: rgba(47,74,97,0.7);
-    font-size: 20px;
-    text-align: center;
-    display: flex;
-    flex-wrap: wrap;
-}
 
 
 
